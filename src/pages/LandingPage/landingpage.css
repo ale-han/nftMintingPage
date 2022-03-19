@@ -1,0 +1,14 @@
+button {
+  background: linear-gradient(102.66deg, #001aff -18.69%, #e70000 110.17%);
+  border-radius: 10px;
+  height: 45px;
+  transition-duration: 400ms;
+  /* animation: fadeinout 4s linear forwards; */
+  /* transition: opacity 2s linear; */
+}
+
+button:hover {
+  background: none;
+  background-color: white;
+  color: black;
+}
