@@ -3,6 +3,7 @@ button {
   border-radius: 10px;
   height: 45px;
   transition-duration: 400ms;
+  color: white;
   /* animation: fadeinout 4s linear forwards; */
   /* transition: opacity 2s linear; */
 }

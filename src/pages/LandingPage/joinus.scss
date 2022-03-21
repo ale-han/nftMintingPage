@@ -1,0 +1,15 @@
+.joinus {
+  background-color: rgb(6, 9, 18, 1);
+  .title {
+    width: 40rem;
+  }
+
+  .panel {
+    width: 50rem;
+    @apply mx-auto;
+    img {
+      width: 11rem;
+      @apply py-2;
+    }
+  }
+}

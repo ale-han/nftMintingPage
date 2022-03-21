@@ -8,7 +8,7 @@ export default function JoinClub() {
       <img
         src={backImage}
         alt="backImage"
-        className="absolute bg-image bg-cover object-cover  h-full -z-30"
+        className="absolute bg-image bg-cover  -z-30 back-image"
       />
       <div className="content text-white text-center">
         <div className="banner mx-auto py-32">
