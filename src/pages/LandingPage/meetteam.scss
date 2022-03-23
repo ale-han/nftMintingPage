@@ -1,0 +1,31 @@
+.meetteam {
+  background-color: #080514;
+  .title {
+    width: 40rem;
+  }
+
+  .panel {
+    width: 70rem;
+    .panel-item {
+      img {
+        width: 18rem;
+      }
+      .info {
+        background-color: rgba(0, 0, 0, 0.9);
+        width: 18rem;
+        height: 4rem;
+      }
+      .overlay {
+        width: 18rem;
+        height: 0rem;
+        background-color: rgba(0, 0, 0, 0.4);
+        transition-duration: 500ms;
+      }
+      &:hover {
+        .overlay {
+          height: 18rem;
+        }
+      }
+    }
+  }
+}

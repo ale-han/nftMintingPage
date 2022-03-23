@@ -1,0 +1,25 @@
+.footer {
+  background-color: rgba(7, 2, 19, 0.9);
+  .content {
+    width: 50rem;
+  }
+  .icons {
+    width: 30rem;
+    .icon {
+      margin: 1rem;
+      padding: 5px;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      border: 1px solid, #f2024c;
+      color: #f2024c;
+      background: #ededed;
+      transition-duration: 500ms;
+      box-shadow: inset 3px 4px 4px rgba(0, 0, 0, 0.23);
+      &:hover {
+        color: white;
+        background-color: #f2024c;
+      }
+    }
+  }
+}

@@ -8,9 +8,9 @@ export default function JoinUs() {
       <img
         src={backImage}
         alt="backImage"
-        className="w-full absolute bg-cover h-full object-cover"
+        className="w-full absolute bg-cover h-full object-cover -z-10"
       />
-      <div className="z-10">
+      <div className="">
         <div className="text-white title text-center mx-auto">
           <h2 className="text-xl pt-20">A B O U T</h2>
           <h1 className="text-4xl py-5">Welcome To Billionare Club</h1>

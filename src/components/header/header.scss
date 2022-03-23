@@ -1,3 +1,11 @@
 header span ul li {
-    @apply mx-4 cursor-pointer hover:text-gray-500
+  @apply mx-4 cursor-pointer hover:text-gray-500;
+}
+
+.header-content {
+  width: 60rem;
+}
+
+.header-content1 {
+  width: 55rem;
 }

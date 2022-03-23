@@ -1,0 +1,35 @@
+.roadmap {
+  background-color: #212429;
+  .road-items {
+    width: 65rem;
+    .road-item {
+      cursor: pointer;
+      background: #1d1f23;
+      box-shadow: 8px 8px 12px black;
+      border-radius: 4px;
+      width: 28rem;
+      transition-duration: 400ms;
+      .step {
+        @apply mx-auto;
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100%;
+        border-color: #f2024c;
+        border-width: 1px;
+        border-style: solid;
+      }
+      &:hover {
+        background-color: #f2024c;
+        .step {
+          background: linear-gradient(
+            148.39deg,
+            #ededed -9.05%,
+            #cedee5 88.04%
+          );
+          box-shadow: inset 4px 5px 11px rgba(0, 0, 0, 0.25);
+          color: #f2024c;
+        }
+      }
+    }
+  }
+}
