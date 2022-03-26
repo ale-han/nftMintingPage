@@ -2,6 +2,8 @@ import React from "react";
 import backImage from "../../assets/1.png";
 import bannerTitle from "../../assets/join-club-text.png";
 import "./joinclub.scss";
+import { Link } from "react-router-dom";
+
 export default function JoinClub() {
   return (
     <div className="con">
@@ -22,7 +24,9 @@ export default function JoinClub() {
             <button className="px-8 mx-5">OUR SERVICE</button>
             <button className="px-8 mx-5">VIEW ON OPENSEA</button>
           </div>
-          <button className="px-8 mx-5 mt-5">MINT PAGE</button>
+          <Link to="minting">
+            <button className="px-8 mx-5 mt-5">MINT PAGE</button>
+          </Link>
         </div>
       </div>
     </div>
